@@ -13,6 +13,8 @@
 		2676B4B323A840B800B067A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676B4B123A840B800B067A6 /* Main.storyboard */; };
 		2676B4B523A840BC00B067A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2676B4B423A840BC00B067A6 /* Assets.xcassets */; };
 		2676B4B823A840BC00B067A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676B4B623A840BC00B067A6 /* LaunchScreen.storyboard */; };
+		2676B4C023A8AE9E00B067A6 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676B4BF23A8AE9E00B067A6 /* ReactionView.swift */; };
+		2676B4C223A8B40200B067A6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676B4C123A8B40200B067A6 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2676B4B423A840BC00B067A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2676B4B723A840BC00B067A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2676B4B923A840BC00B067A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2676B4BF23A8AE9E00B067A6 /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		2676B4C123A8B40200B067A6 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				2676B4AB23A840B800B067A6 /* AppDelegate.swift */,
 				2676B4AD23A840B800B067A6 /* SceneDelegate.swift */,
 				2676B4AF23A840B800B067A6 /* ViewController.swift */,
+				2676B4C123A8B40200B067A6 /* NewViewController.swift */,
+				2676B4BF23A8AE9E00B067A6 /* ReactionView.swift */,
 				2676B4B123A840B800B067A6 /* Main.storyboard */,
 				2676B4B423A840BC00B067A6 /* Assets.xcassets */,
 				2676B4B623A840BC00B067A6 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2676B4B023A840B800B067A6 /* ViewController.swift in Sources */,
+				2676B4C023A8AE9E00B067A6 /* ReactionView.swift in Sources */,
+				2676B4C223A8B40200B067A6 /* NewViewController.swift in Sources */,
 				2676B4AC23A840B800B067A6 /* AppDelegate.swift in Sources */,
 				2676B4AE23A840B800B067A6 /* SceneDelegate.swift in Sources */,
 			);

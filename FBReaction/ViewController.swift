@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let reactionView = FBReactionPopup()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        reactionView.setupPopup(in: view)
+        reactionView.backgroundColor = .green
+        reactionView.frame = CGRect(x: 0, y: 0, width: 48, height: 24)
+        view.addSubview(reactionView)
+        reactionView.center = view.center
     }
-
 
 }
 
